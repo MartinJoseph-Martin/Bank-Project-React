@@ -71,8 +71,8 @@ class ViewCustomer extends React.Component{
                             <td style={this.style}>{res.place}</td>
                             <td style={this.style}>{res.phone}</td>
                             <td style={this.style}>{res.mail}</td>
-                            <td><Button  variant="warning" onClick={()=>this.editData(key)}>Edit Data</Button></td>
-                            <td><Button  variant="danger" onClick={()=>this.deleteData(res.cust_id)}>Delete Data</Button></td>
+                            <td style={{width:'150px'}}><Button  variant="warning" onClick={()=>this.editData(key)}>Edit Data</Button></td>
+                            <td style={{width:'150px'}}><Button  variant="danger" onClick={()=>this.deleteData(res.cust_id)}>Delete Data</Button></td>
                         </tr>
                     ))
                 }

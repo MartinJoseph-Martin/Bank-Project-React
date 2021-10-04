@@ -55,7 +55,7 @@ class ViewCustomerAccounts extends React.Component{
                             <td style={this.style}>{res.acc_no}</td>
                             <td style={this.style}>{res.account_type}</td>
                             <td style={this.style}>{res.acc_balance}</td>
-                            <td ><Button variant="danger" onClick={()=>this.deleteAccount(res.cust_id,res.acc_no)}>delete</Button></td>
+                            <td style={{width:'200px'}}><Button variant="danger" onClick={()=>this.deleteAccount(res.cust_id,res.acc_no)}>delete</Button></td>
                             
                             
                         </tr>
