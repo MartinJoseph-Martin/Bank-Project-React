@@ -42,7 +42,7 @@ class AddCustomer extends React.Component {
             setTimeout(()=>{
                 this.props.getCustomer()
                 this.setState({success:true})
-            },100)
+            },200)
             setTimeout(()=>{
                 this.setState({success:false})
             },4000)

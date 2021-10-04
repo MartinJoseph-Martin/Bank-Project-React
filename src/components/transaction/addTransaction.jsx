@@ -44,7 +44,7 @@ class AddTransaction extends React.Component {
 
         return (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-               <b> Transaction Type </b> <br /><br /> <select name="t_type" onChange={(event) => this.setState({ t_type: event.target.value })}>
+               <b> Transaction Type </b>  <select name="t_type" onChange={(event) => this.setState({ t_type: event.target.value })}>
                     {
                         transactionTypeCollection.map(res => (
                             <option value={res.t_type} >{res.t_name}</option>

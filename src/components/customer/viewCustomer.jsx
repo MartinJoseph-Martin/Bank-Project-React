@@ -79,8 +79,8 @@ class ViewCustomer extends React.Component{
                 </tbody>
                 </Table>:
                 <div style={{borderStyle:'solid',padding:'20px',textAlign:'center',backgroundColor:'cyan'}}>
-                    <b>Coustomer ID :</b> {customerCollection[0].cust_id} <br /><br />
-                    <b>Coustomer Name :</b> {customerCollection[0].cust_name} <br /><br />
+                    <b>Customer ID :</b> {customerCollection[0].cust_id} <br /><br />
+                    <b>Customer Name :</b> {customerCollection[0].cust_name} <br /><br />
                     <b> Place :</b> {customerCollection[0].place} <br /><br />
                     <b>Phone :</b> {customerCollection[0].phone} <br /><br />
                     <b>mail :</b> {customerCollection[0].mail} <br /><br />
